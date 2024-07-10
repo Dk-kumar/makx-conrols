@@ -2,15 +2,15 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 import { Feather } from "@expo/vector-icons";
 
-import Header from "@/components/header";
-import ToggleSwitch from "@/components/button/ToggleSwitch";
-import CircularTimer from "@/components/button/CircularTimer";
-import TimerModes from "@/components/home/timerModes";
-import PowerSwitch from "@/components/home/powerSwitch";
-import PhaseIndicator from "@/components/home/phaseIndicator";
+import Header from "@/app/components/header";
+import ToggleSwitch from "@/app/components/button/ToggleSwitch";
+import CircularTimer from "@/app/components/button/CircularTimer";
+import TimerModes from "@/app/components/home/timerModes";
+import PowerSwitch from "@/app/components/home/powerSwitch";
+import PhaseIndicator from "@/app/components/home/phaseIndicator";
 
-import { MotorRunningTime } from "@/components/home/motor/MotorRunningTime";
-import { AmpereGrid, VoltageGrid } from "@/components/home/Grid";
+import { MotorRunningTime } from "@/app/components/home/motor/MotorRunningTime";
+import { AmpereGrid, VoltageGrid } from "@/app/components/home/Grid";
 
 const HomeScreen: React.FC = () => {
   return (
